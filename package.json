@@ -1,7 +1,8 @@
 {
   "name": "markdown2lexical",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build src/index.tsx"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "3.0.0-beta.58",
