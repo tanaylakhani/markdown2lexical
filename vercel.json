@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "buildCommand": "bun run build",
   "builds": [
     {
-      "src": "src/index.ts",
+      "src": "api/index.ts",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/index.ts"
+      "dest": "/api/index.ts"
     }
   ]
 }
